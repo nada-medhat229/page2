@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- title -->
+    <title>earth services</title>
+    <meta charset="utf-8" />
+    <!--3lshan tkon support to internet explorer-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- first mobile meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/scss/framworks/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/scss/framworks/animate.css" />
+    <!-- <link rel="shortcut icon" href="img/fave.png" type="image/x-icon"/> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/scss/framworks/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="css/scss/framworks/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header_content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="logo">
+                <a href="#">
+                  <img src="img/logo.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <div class="navbar_header">
+                <div class="click-nav">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="overlay-header"></div>
+                <div class="nav">
+                  <ul class="list-nav">
+                    <li><a href="#">الصفحة الرئيسية</a></li>
+                    <li><a href="#">من نحن</a></li>
+                    <li><a href="#">مميزات التطبيق</a></li>
+                    <li><a href="#">شاشات التطبيق</a></li>
+                    <li><a href="#">تواصل معنا</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12">
+              <div class="header_option">
+                <ul>
+                  <li>
+                    <div class="btn_application btn-active">
+                      <a href="./regist.html">
+                        <span class="name">التسجيل</span>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="header_banner header-title">
+      <div class="container">
+        <h5 class="text-center text-secondary">
+          الصفحة الرئيسية//<span class="text-dark">التسجيل كمقدم خدمة</span>
+        </h5>
+      </div>
+    </section>
+    <section class="form-data">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <label for="" class="py-2 px-3">الاسم بالكامل</label><br />
+            <input type="text" class="form-control mb-2" />
+            <label for="" class="py-2 px-3"> رقم الجوال</label><br />
+            <input type="text" class="form-control mb-2" />
+            <label for="" class="py-2 px-3"> الرقم السري</label><br />
+            <input type="text" class="form-control mb-2" />
+            <label for="" class="py-2 px-3"> نوع المركز</label><br />
+            <select
+              class="form-select"
+              id="floatingSelect"
+              aria-label="Floating label select example"
+            >
+              <option value="0"></option>
+              <option value="1">مركز</option>
+              <option value="2">مركز</option>
+            </select>
+            <label for="" class="py-2 px-3"> رقم السجل التجاري</label><br />
+            <input type="text" class="form-control mb-2" />
+            <div class="camera-input position-relative">
+              <label for="" class="py-2 px-3"> صورة السجل التجاري</label><br />
+              <input
+                type="text"
+                class="form-control mb-2"
+                style="height: 150px"
+              />
+              <i class="fa-solid fa-4x fa-camera position-absolute"></i>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <label for="" class="py-2 px-3"> البريد الالكتروني</label><br />
+            <input type="email" class="form-control mb-2" />
+            <label for="" class="py-2 px-3"> رقم الواتساب</label><br />
+            <input type="text" class="form-control mb-2" />
+            <label for="" class="py-2 px-3"> اسم المركز</label><br />
+            <input type="text" class="form-control mb-2" />
+            <label for="" class="py-2 px-3"> نوع الخدمة</label><br />
+            <select
+              class="form-select"
+              id="floatingSelect"
+              aria-label="Floating label select example"
+            >
+              <option value="0"></option>
+              <option value="1">خدمة</option>
+              <option value="2">خدمة</option>
+            </select>
+            <label for="" class="py-2 px-3"> تاريخ انتهاء السجل التجاري</label
+            ><br />
+            <input type="text" class="form-control mb-2" />
+          </div>
+        </div>
+        <div class="check-input my-4">
+          <input
+            type="checkbox"
+            id="accept"
+            name=""
+            value=""
+            onclick="myFunction()"
+          />
+          <label for="" class="pe-4">الموافقة علي الشروط والاحكام </label><br />
+        </div>
+      
+        <div class="menu" style="display: none">
+          <ol>
+            <li>بيع أو نسخ أو تأجير أو نقل المعلومات والتنازل عنها</li>
+            <li>استخدام الموقع لأغراض غير قانونية</li>
+            <li>الوصول إلى بيانات الشركة أو المستخدمين بدون تصريح</li>
+            <li>
+              تغيير أو تعديل أو المساس بحقوق الملكية الفكرية الخاصة بالشركة.
+            </li>
+            <li>انتهاك الحقوق القانونية لأي شخص آخر</li>
+          </ol>
+        </div>
+
+        <div class="btn_application">
+          <a href="./regist.html">
+            <span class="name">التسجيل</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer_top">
+        <div class="container">
+          <div class="footer_top_data">
+            <div class="footer_top_logo">
+              <a href="#">
+                <img src="img/logo.png" alt="" />
+              </a>
+            </div>
+
+            <div class="footer_top_list">
+              <ul>
+                <li><a href="#">الصفحة الرئيسية</a></li>
+                <li><a href="#">من نحن</a></li>
+                <li><a href="#">مميزات التطبيق</a></li>
+                <li><a href="#">شاشات التطبيق</a></li>
+                <li><a href="#">تواصل معنا</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottm">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-8 col-xs-12">
+              <div class="copy_right_footer">
+                <p>جميع الحقوق محفوظة لـ <a href="#">earth services</a></p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="footer_bottm_logo">
+                <a href="#">
+                  <img src="img/footer_logo.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/framworks/jquery-3.3.1.js"></script>
+    <!--3lshan y3ref al element al 7asa html5 like header,footer,.... in internet explorer-->
+    <script src="js/framworks/fontawesome-all.min.js"></script>
+    <script src="js/framworks/owl.carousel.min.js"></script>
+    <!--3lshan al internet explorer yshof @media query -->
+    <script src="js/framworks/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
