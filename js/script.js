@@ -91,12 +91,12 @@ $(window).on("load", function () {
   });
 });
 
-function myFunction() {
-    let checkInput = document.querySelector("#accept");
-    let menu = document.querySelector(".menu");
-    if (checkInput.checked == true) {
-        menu.style.display = "block";
-      } else {
-        menu.style.display = "none";
-      }
-  }
+// function myFunction() {
+//     let checkInput = document.querySelector("#accept");
+//     let menu = document.querySelector(".menu");
+//     if (checkInput.checked == true) {
+//         menu.style.display = "block";
+//       } else {
+//         menu.style.display = "none";
+//       }
+//   }

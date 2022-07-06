@@ -196,7 +196,7 @@ header .logo img {
     border: 1px solid #FFD10A;
     color: #000;
     height: 46px;
-    /* padding: 0px 15px; */
+    padding: 0px 15px;
     border-radius: 50px;
     line-height: 35px;
     display: inline-block;
@@ -430,7 +430,7 @@ section.Application_Services {
     width: 100%;
     height: 100%;
     display: flex;
-    padding: 0px 15px;
+    padding: 0px 20%;
 }
 
 section.application_features {
@@ -705,6 +705,38 @@ footer {
 .form-data .btn_application span.name{
     color: #fff;
 }
+/*---------- first terms page -------------   */
+.section-term h3{
+    color: #ffd10a;
+    font-size: 30px;
+  }
+  .section-term >p{
+    color: #707070;
+    line-height: 1.9;
+    font-size: 20px;
+  }
+  .section-term div{
+    line-height: 1.9;
+    color: #707070;
+    column-gap: 30px;
+  }
+  .section-term .li{
+    background-color: #777;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  .section-term{
+    counter-reset: subsection;
+  }
+  .section-term .li::before {
+    counter-increment: subsection;
+    content: counter(subsection) ;
+  }
+  /*-----------end terms page-------------- */
 /* // Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width:992px) {
@@ -814,7 +846,7 @@ footer {
         display: none;
     }
     .form-data .btn_application{
-        padding: 0px 10px !important;
+        padding: 0px 0px !important;
         width: 15%;
     }
     .form-data input:not([type='checkbox']), .form-data select {
@@ -881,7 +913,6 @@ footer {
         display: block !important;
     } */
     .form-data .btn_application{
-        padding: 0px 20px !important;
         width: 30%;
     }
     
